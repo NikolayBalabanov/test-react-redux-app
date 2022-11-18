@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NikolayBalabanov/test-react-redux-app/static/css/main.be5e485f.css",
+    "main.js": "/NikolayBalabanov/test-react-redux-app/static/js/main.e262124c.js",
+    "index.html": "/NikolayBalabanov/test-react-redux-app/index.html",
+    "main.be5e485f.css.map": "/NikolayBalabanov/test-react-redux-app/static/css/main.be5e485f.css.map",
+    "main.e262124c.js.map": "/NikolayBalabanov/test-react-redux-app/static/js/main.e262124c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be5e485f.css",
+    "static/js/main.e262124c.js"
+  ]
+}
