@@ -1,0 +1,28 @@
+.btn {
+  padding: 10px 21px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #116acc;
+  border: 2px solid #116Acc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    border 0.15s ease-in-out,
+    background-color 0.15s ease-in-out,
+    color 0.15s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #a0c3ff;
+  border: 2px solid #a0c3ff;
+  color: #fff;
+}
+
+.btn:disabled {
+  pointer-events: none;
+  background-color: gray;
+  border: 2px solid gray;
+  color: #ffffff;
+}
