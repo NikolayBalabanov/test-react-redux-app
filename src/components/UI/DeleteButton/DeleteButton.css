@@ -1,0 +1,28 @@
+.delete {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete svg {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: .7;
+}
+
+.delete:hover svg {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  stroke: #8899a4;
+  fill: #8899a4;
+  opacity: 1;
+}
+
+.delete--active svg {
+  stroke: #8899a4;
+  fill: #8899a4;
+  opacity: .7;
+}

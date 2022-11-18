@@ -1,0 +1,27 @@
+.like {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.like svg {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: .7;
+}
+
+.like:hover svg {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  stroke: #6b9bd2;
+  opacity: 1;
+}
+
+.like--active svg {
+  stroke: #6b9bd2;
+  fill: #6b9bd2;
+  opacity: .7;
+}
